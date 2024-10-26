@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE60134F-6ABA-4D84-897E-D584492BA82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFacil.Api", "src\ControleFacil.Api\ControleFacil.Api.csproj", "{B8C9B84F-5F06-4D0F-91C6-626FE84991E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{18070ACB-D867-478F-A9E7-D664268E5873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFacil.Test", "test\ControleFacil.Test\ControleFacil.Test.csproj", "{BAE0DFD0-3142-4240-B202-5472352C9100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C9B84F-5F06-4D0F-91C6-626FE84991E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C9B84F-5F06-4D0F-91C6-626FE84991E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C9B84F-5F06-4D0F-91C6-626FE84991E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C9B84F-5F06-4D0F-91C6-626FE84991E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE0DFD0-3142-4240-B202-5472352C9100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE0DFD0-3142-4240-B202-5472352C9100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE0DFD0-3142-4240-B202-5472352C9100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE0DFD0-3142-4240-B202-5472352C9100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8C9B84F-5F06-4D0F-91C6-626FE84991E3} = {AE60134F-6ABA-4D84-897E-D584492BA82F}
+		{BAE0DFD0-3142-4240-B202-5472352C9100} = {18070ACB-D867-478F-A9E7-D664268E5873}
+	EndGlobalSection
+EndGlobal
