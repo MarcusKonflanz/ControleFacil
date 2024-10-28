@@ -13,3 +13,11 @@ Passo a passo de como criar uma nova entidade.
     3 - criar mapeamento no ApplicationContext
     4 - criar a migration
     5 - executar migration
+
+
+Criando o CRUD
+    1 - Modelo / entidade
+    2 - Repositorio
+    3 - Servico
+    4 - Controller
+
